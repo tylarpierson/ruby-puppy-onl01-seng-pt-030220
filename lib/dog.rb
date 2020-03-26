@@ -8,7 +8,7 @@ class Dog
     @@all 
   end 
   def self.print_all 
-    puts @@all[name]
+    puts @name 
   end 
   def save 
     @@all << self 

@@ -4,7 +4,7 @@ class Dog
     @save = save 
   end
   def self.all 
-    @@all 
+    @all 
   end 
   def self.print_all 
     puts @save 

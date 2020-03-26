@@ -1,10 +1,10 @@
 class Dog 
   @@all = []
-  def initialize(save) 
-    @save = save 
+  def initialize(all) 
+    @@save << self 
   end
   def self.all 
-    @all 
+    @@all 
   end 
   def self.print_all 
     puts @save 

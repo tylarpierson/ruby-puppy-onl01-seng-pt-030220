@@ -8,9 +8,7 @@ class Dog
   end 
   def self.print_all 
     @@all.each do |name| 
-      if @@all[name] = name 
-        puts name 
-      end 
+      
     end 
   end 
   def save 
